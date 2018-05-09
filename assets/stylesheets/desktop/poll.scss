@@ -29,7 +29,7 @@ div.poll {
     border-top: 1px solid $border-color;
     padding: 10px;
 
-    .toggle-status {
+    .toggle-status:not(:first-child) {
       margin-left: 10px;
     }
   }
